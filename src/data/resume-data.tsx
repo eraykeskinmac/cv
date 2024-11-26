@@ -20,99 +20,57 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Mustafa Eray Keskin",
+  initials: "MEK",
+  location: "Ankara, Turkey",
+  locationLink: "https://www.google.com/maps/place/Ankara",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Full Stack Developer specializing in scalable web applications with TypeScript, React, and Node.js. Passionate about implementing AI solutions and modern technologies to create impactful digital products with exceptional user experiences.",
+  // avatarUrl: "https://avatars.githubusercontent.com/u/63066081?v=4",
+  personalWebsiteUrl: "https://www.eraykeskin.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "eraykeskinmac@gmail.com",
+    tel: "+905357915877",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/eraykeskinmac",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/eraykeskinmac/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/eraykeskinmac",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Atatürk University",
+      degree:
+        "Associate's Degree in Computer Programming,  Faculty of Open and Distance Education",
+      start: "2024",
+      end: "Present",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
+      company: "OPLOG",
+      link: "https://oplog.io",
+      badges: ["Ankara, Turkey", "Remote"],
+      title: "Software Developer",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2022",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+        "Specializing in internal tool development and process automation while leading OPLOG's digital presence transformation. Successfully managed and executed the complete migration of oplog.io from HubSpot to a modern tech stack (Typescript, Next.js, Prismic CMS, TailwindCSS), resulting in significant SEO improvements and performance optimization. Led key projects including AI-powered customer support analysis, call center integration with automated transcription, and enterprise-wide personnel management systems. Developed various enterprise solutions using React, TypeScript, and modern AI technologies while maintaining focus on scalability and user experience.",
     },
   ],
   skills: [
@@ -121,8 +79,8 @@ export const RESUME_DATA = {
     "React/Next.js/Remix",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "PostgreSQL",
+    "Prisma",
   ],
   projects: [
     {
