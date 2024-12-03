@@ -84,20 +84,20 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "Page Form",
       techStack: [
-        "Full Stack Developer",
+        "Side Project",
         "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "A dynamic form builder with drag-and-drop interface and Prisma-backed management.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://page-form-iota.vercel.app/",
       },
     },
     {
